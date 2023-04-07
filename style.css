@@ -1,0 +1,48 @@
+p {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center bottom;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zip-code {
+    margin-bottom: 8px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.city {
+    margin-bottom: 32px;
+    font-size: 15px;
+    color: white;
+}
+
+.temperature {
+    font-size: 128px;
+    color: white;
+}
+
+.condition {
+    font-size: 15px;
+    color: white;
+}
